@@ -1,0 +1,23 @@
+1
+javac AtmInterface.java
+
+javac Guest.java
+
+javac MainControl.java
+
+java MainControl
+
+2
+javac AtmInterface.java Guest.java MainControl.java
+
+java MainControl
+
+3
+javac -d . AtmInterface.java Guest.java MainControl.java
+
+java MainControl
+
+4
+javac *.java
+
+java MainControl
